@@ -7,4 +7,4 @@ build.so: setup.py
 	python3 setup.py build_ext --inplace
 
 clean:
-	rm -rf pySPH_chocktube/*.so build dist pySPH_chocktube/pyParticle.cpp MANIFEST 
+	rm -rf pySPH_Shocktube/*.so build dist pySPH_chocktube/pyParticle.cpp MANIFEST
