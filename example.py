@@ -1,6 +1,12 @@
-import json
+from pySPH_Shocktube.Particle import *
+from pySPH_Shocktube.IC_and_Boundary import *
 
-f = open("IC.json")
-IC = json.load(f)
-print(IC["rho"][0]["right"])
-f.close()
+
+
+IC = IC_and_Boundary("IC.json") 
+particles = []
+for i in range(0,IC.n_particle()):
+   particle = Particle(1)
+   particles.append(particle)
+
+

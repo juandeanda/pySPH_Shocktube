@@ -18,5 +18,6 @@
          "right": 0.25
       }
    ],
-   "gamma" : 1.4
+   "gamma" : 1.4,
+   "n_particle" : 200
 }
