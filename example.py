@@ -8,5 +8,7 @@ particles = []
 for i in range(0,IC.n_particle()):
    particle = Particle(1)
    particles.append(particle)
+particles[0].pos[0]= 1.0
+print(particles[0].pos[0])
 
 

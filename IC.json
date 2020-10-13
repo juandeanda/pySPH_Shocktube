@@ -18,6 +18,13 @@
          "right": 0.25
       }
    ],
+   "Entropy": [
+      {
+         "left": 1.0,
+         "right": 0.25
+      }
+   ],
    "gamma" : 1.4,
-   "n_particle" : 200
+   "n_particle" : 200,
+   "mass" : 0.5
 }
